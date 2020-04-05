@@ -2,8 +2,7 @@ package sudoku;
 
 import java.util.*;
 
-public class Grid 
-{
+public class Grid {
 private int[][]	values;
 	
 	//
