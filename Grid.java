@@ -2,10 +2,10 @@ package sudoku;
 
 import java.util.*;
 
-public class Grid {
-private int[][]						values;
+public class Grid 
+{
+private int[][]	values;
 	
-
 	//
 	// DON'T CHANGE THIS.
 	//
@@ -54,7 +54,7 @@ private int[][]						values;
 
 	//
 	// DON'T CHANGE THIS.
-	// Copy ctor. Duplicates its source. Youíll call this 9 times in next9Grids.
+	// Copy ctor. Duplicates its source. You‚Äôll call this 9 times in next9Grids.
 	//
 	Grid(Grid src)
 	{
@@ -67,8 +67,8 @@ private int[][]						values;
 	
 	//
 	//Finds an empty member of values[][]. Returns an array list of 9 grids that look like the current grid,
-	// except the empty member contains 1, 2, 3 .... 9. Returns null if the current grid is full. Donít change
-	// ìthisî grid. Build 9 new grids.
+	// except the empty member contains 1, 2, 3 .... 9. Returns null if the current grid is full. Don‚Äôt change
+	// ‚Äúthis‚Äù grid. Build 9 new grids.
 	// 
 	//
 	// Example: if this grid = 1........
