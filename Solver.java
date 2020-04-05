@@ -3,8 +3,8 @@ package sudoku;
 import java.util.*;
 
 public class Solver {
-	private Grid						problem;
-	private ArrayList<Grid>				solutions;
+	private Grid			problem;
+	private ArrayList<Grid>		solutions;
 	
 	
 	public Solver(Grid problem)
@@ -92,5 +92,4 @@ public class Solver {
 		// Print out your solution, or test if it equals() the solution in TestGridSupplier.
 		System.out.println(solver.getSolutions());
 	}
-
 }
